@@ -1,0 +1,109 @@
+{
+      "id": 4,
+      "name": "Claymorphism-Soft-3D UI",
+      "aesthetic": "playful, tactile, inflated 3D",
+      "category": "claymorphism",
+      "description": "A warm, approachable design language featuring soft, puffy elements that appear to float like sculpted clay. Creates a friendly, tactile experience perfect for consumer-facing apps.",
+      "colors": {
+        "background": {
+          "type": "full-bleed gradient",
+          "start": "#ffd4c4",
+          "end": "#d4b3ff",
+          "angle": "135deg",
+          "alternative_palettes": [
+            {"start": "#ffe4e1", "end": "#e1f5ff"},
+            {"start": "#fff4d4", "end": "#ffd4e1"}
+          ]
+        },
+        "elements": {
+          "cards": "white or light pastels (#fef9f5, #f5f5ff)",
+          "opacity": "95-100%"
+        },
+        "text": {
+          "primary": "#2d2d3a",
+          "secondary": "#6b6b80",
+          "on_color": "#ffffff"
+        }
+      },
+      "typography": {
+        "headings": {
+          "family": "rounded display font (e.g., 'Quicksand', 'Fredoka', 'Comfortaa')",
+          "weight": "700-800",
+          "size": "32-48px for balance amounts",
+          "color": "#2d2d3a",
+          "letter_spacing": "-0.02em"
+        },
+        "body": {
+          "family": "rounded sans-serif (e.g., 'Inter', 'DM Sans')",
+          "weight": "400-500",
+          "size": "14-16px",
+          "line_height": "1.5",
+          "minimal": true
+        }
+      },
+      "components": {
+        "cards": {
+          "shape": "squircle (smooth continuous curve, not just rounded corners)",
+          "border_radius": "28-40px",
+          "padding": "24-32px",
+          "shadow": {
+            "type": "strong offset drop shadow",
+            "x_offset": "8-12px",
+            "y_offset": "12-20px",
+            "blur": "24-32px",
+            "color": "rgba(0, 0, 0, 0.12)",
+            "description": "suggests floating clay blocks"
+          },
+          "inner_shadow": {
+            "position": "top edge",
+            "size": "subtle 0 2px 4px inset",
+            "color": "rgba(0, 0, 0, 0.05)"
+          },
+          "appearance": "puffy, inflated, tactile"
+        },
+        "buttons": {
+          "shape": "fully rounded pill or squircle",
+          "padding": "14-18px 28-36px",
+          "shadow": "similar to cards but slightly less prominent",
+          "hover_state": "slight lift (translateY -2px) + increased shadow"
+        },
+        "icons": {
+          "style": "3D clay-style",
+          "appearance": "soft, rounded, slightly inflated",
+          "colors": "pastel accent colors",
+          "size": "32-48px"
+        }
+      },
+      "layout": {
+        "type": "mobile-first (iOS optimized)",
+        "orientation": "portrait",
+        "spacing": "generous 20-32px gaps between cards",
+        "alignment": "centered content",
+        "safe_areas": "respect iOS notch and home indicator"
+      },
+      "effects": {
+        "animations": {
+          "micro_interactions": "friendly bounce or scale effects",
+          "duration": "200-400ms",
+          "easing": "cubic-bezier(0.68, -0.55, 0.265, 1.55) for bounce",
+          "triggers": ["tap", "swipe", "pull-to-refresh"]
+        },
+        "hover_states": {
+          "elevation": "increase shadow offset by 2-4px",
+          "transform": "translateY(-2px) scale(1.01)"
+        }
+      },
+      "characteristics": {
+        "approachable": true,
+        "playful": true,
+        "modern": true,
+        "tactile_feedback": "visual suggestion of physical interaction"
+      },
+      "use_cases": [
+        "mobile banking apps",
+        "fitness tracking",
+        "educational apps",
+        "lifestyle and wellness",
+        "consumer fintech"
+      ]
+    }
